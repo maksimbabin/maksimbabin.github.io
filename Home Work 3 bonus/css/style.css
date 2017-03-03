@@ -1,0 +1,114 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteiner {
+    width: 820px;
+    height: inherit;
+    margin: 0 auto;
+    padding-top: 55px;
+    overflow: hidden;
+    color: #e6e6e6;
+    font-size: 10px;
+    font-family: Tahoma;
+}
+
+.logo {
+    width: 263px;
+    height: 147px;
+    position: relative;
+    float: left;
+}
+
+.palms {
+    width: 125px;
+    height: 147px;
+    position: absolute;
+    left: 138px;
+    background-image: url(../img/palms.png);
+    opacity: 0.149;
+}
+
+.asia_holidays {
+    width: 263px;
+    height: 37px;
+    position: absolute;
+    top: 75px;
+    background-image: url(../img/asia_holidays.png);
+}
+
+.logo p {
+    position: absolute;
+    top: 120px;
+    left: 85px;
+}
+
+.contacts {
+    font-size: 8px;
+    float: right;
+    position: relative;
+    top:110px;
+    right: 20px;
+}
+
+.contacts li:first-child {
+    line-height: 14px;
+}
+
+main {
+    width: 820px;
+    clear: both;
+}
+
+.picture {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 15px;
+}
+
+.picture1 {
+    width: 270px;
+    height: 188px;
+    background: url(../img/picture1.jpg);
+}
+
+.picture2 {
+    width: 270px;
+    height: 188px;
+    background: url(../img/picture2.jpg);
+}
+
+.picture3 {
+    width: 270px;
+    height: 188px;
+    background: url(../img/picture3.jpg);
+}
+
+.picture4 {
+    width: 270px;
+    height: 188px;
+    background: url(../img/picture4.jpg);
+}
+
+.picture5 {
+    width: 270px;
+    height: 188px;
+    background: url(../img/picture5.jpg);
+}
+
+.picture6 {
+    width: 270px;
+    height: 188px;
+    background: url(../img/picture6.jpg);
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+}
