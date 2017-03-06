@@ -27,14 +27,14 @@ header {
 
 .nav_top {
     width: 972px;
-	height: 40px;
+    height: 40px;
     margin: 0 auto 40px;
-	background-color: #fff;
-	background-image: -webkit-linear-gradient(bottom, #444343, #5e5e5e);
-	background-image: -moz-linear-gradient(bottom, #444343, #5e5e5e);
-	background-image: -o-linear-gradient(bottom, #444343, #5e5e5e);
-	background-image: -ms-linear-gradient(bottom, #444343, #5e5e5e);
-	background-image: linear-gradient(to top, #444343, #5e5e5e);
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(bottom, #444343, #5e5e5e);
+    background-image: -moz-linear-gradient(bottom, #444343, #5e5e5e);
+    background-image: -o-linear-gradient(bottom, #444343, #5e5e5e);
+    background-image: -ms-linear-gradient(bottom, #444343, #5e5e5e);
+    background-image: linear-gradient(to top, #444343, #5e5e5e);
 }
 
 nav ul {
