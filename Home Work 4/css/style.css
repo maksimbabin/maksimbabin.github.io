@@ -1,8 +1,6 @@
 body {
-    background: url(../img/backgroung_body.jpg);
-    background-color: #0c739f;
-    background-repeat: repeat-x;
-    font-family: Tahoma;
+    background: url(../img/backgroung_body.jpg) repeat-x #0c739f;
+    font-family: Tahoma, Arial, sans-serif;
 }
 
 .wraper {
@@ -16,9 +14,9 @@ header {
     padding: 11px 35px 0 28px;
     color: #128aa7;
     font-size: 12px;
-    -webkit-box-shadow: 1px 0px 9px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 0px 9px 1px rgba(0,0,0,0.75);
-    box-shadow: 1px 0px 9px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0 9px 1px rgba(0,0,0,.75);
+    -moz-box-shadow: 1px 0 9px 1px rgba(0,0,0,.75);
+    box-shadow: 1px 0 9px 1px rgba(0,0,0,.75);
 }
 
 .clearfix:after {
@@ -68,8 +66,7 @@ header {
 
 .header_countries ul a {
     display: block;
-    background: url(../img/logo_India.png);
-    background-repeat: no-repeat;
+    background: url(../img/logo_India.png) no-repeat;
     background-position-x: center;
     padding-top: 45px;
     width: 62px;
@@ -80,32 +77,27 @@ header {
 }
 
 .header_countries li:nth-child(2) a {
-    background: url(../img/logo_Nepal.png);
-    background-repeat: no-repeat;
+    background: url(../img/logo_Nepal.png) no-repeat;
     background-position-x: center;
 }
 
 .header_countries li:nth-child(3) a {
-    background: url(../img/logo_Tibet.png);
-    background-repeat: no-repeat;
+    background: url(../img/logo_Tibet.png) no-repeat;
     background-position-x: center;
 }
 
 .header_countries li:nth-child(4) a {
-    background: url(../img/logo_Butan.png);
-    background-repeat: no-repeat;
+    background: url(../img/logo_Butan.png) no-repeat;
     background-position-x: center;
 }
 
 .header_countries li:nth-child(5) a {
-    background: url(../img/logo_Shri_Lanka.png);
-    background-repeat: no-repeat;
+    background: url(../img/logo_Shri_Lanka.png) no-repeat;
     background-position-x: center;
 }
 
 .header_countries li:nth-child(6) a {
-    background: url(../img/logo_Maldives.png);
-    background-repeat: no-repeat;
+    background: url(../img/logo_Maldives.png) no-repeat;
     background-position-x: center;
 }
 
@@ -121,14 +113,14 @@ nav {
     height: 40px;
     margin-bottom: 4px;
     background: #343434;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .75);
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-    font-family: Tahoma;
+    font-family: Tahoma, Arial, sans-serif;
 }
 
 .inline_menu li {
@@ -170,20 +162,17 @@ nav a {
 }
 
 .inline_menu>li:nth-child(2)>a {
-    background: url(../img/white_triangle.png);
-    background-repeat: no-repeat;
+    background: url(../img/white_triangle.png) no-repeat;
     background-position: 130px 18px;
 }
 
 .inline_menu>li:nth-child(3)>a {
-    background: url(../img/white_triangle.png);
-    background-repeat: no-repeat;
+    background: url(../img/white_triangle.png) no-repeat;
     background-position: 94px 18px;
 }
 
 .inline_menu>li:nth-child(4)>a {
-    background: url(../img/white_triangle.png);
-    background-repeat: no-repeat;
+    background: url(../img/white_triangle.png) no-repeat;
     background-position: 115px 18px;
 }
 
@@ -213,7 +202,7 @@ nav a {
     width: 150px;
     background-color: #303030;
     border-top: 1px solid black;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .75);
 
 }
 
@@ -223,7 +212,7 @@ nav a {
     width: 118px;
     background-color: #303030;
     border-top: 1px solid black;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .75);
 }
 
 .dropdown_menu_to_partners {
@@ -232,7 +221,7 @@ nav a {
     width: 135px;
     background-color: #303030;
     border-top: 1px solid black;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .75);
 }
 
 .content {
@@ -241,7 +230,7 @@ nav a {
     align-items: stretch;
     background: #ffffff;
     text-align: center;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .75);
     margin-bottom: 12px;
 }
 
