@@ -7,27 +7,58 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav class="top_menu">
-            <ul>
-                <li><a href="">Meu YouBike</a></li>
-                <li><a href="">Vender</a></li>
-                <li><a href="">Forum</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Ajuda</a></li>
-            </ul>
-            <div class="blue_line"></div>
-            <ul>
-                <li>
-                    <a href="">Minhas Ofertas
-                        <img src="img/.top_menu_flag.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a>
-                </li>
-            </ul>
-        </nav>
-        <div class="body_image_container">
+        <div class="container">
+            <nav class="top_menu">
+                <div class="top_menu_wraper">
+                    <ul>
+                        <li><a href="">Meu YouBike</a></li>
+                        <li><a href="">Vender</a></li>
+                        <li><a href="">Forum</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Ajuda</a></li>
+                    </ul>
+                    <div class="blue_line"></div>
+                    <ul class="gradient_links">
+                        <li>
+                            <a href="">Minhas Ofertas
+                                <img src="img/.top_menu_flag.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main">
+                <div class="main_wraper">
+                    <div class="main_header">
+                        Cadastre-se
+                    </div>
+                    <div class="main_content">
+                        <div class="main_content_container">
+                            <button type="button" name="facebook"></button>
+                            <div class="ou">
+                                <span>ou</span>
+                            </div>
+                            <form class="registration" action="index.html" method="post">
+                                <input type="text" name="first_name" value="" placeholder="First Name">
+                                <input type="text" name="last_name" value="" placeholder="Last Name">
+                                <input type="email" name="email" value="" placeholder="Email Address">
+                                <input type="password" name="password" value="" placeholder="Choose Password">
+                                <input type="password" name="password_confirm" value="" placeholder="Password Confirm">
+                                <p class="checkbox">
+                                    <input type="checkbox" name="send_updates" id="check" value="">
+                                    <label for="check">Send me Youbike updates and tips</label>
+                                </p>
+                                <input type="submit" name="Create_account" value="Create my Account">
+                            </form>
+                        </div>
+                        <div class="main_content_footer">By clicking the button above, you agree to the Terms of Service
+Xiew our Privacy Policy.</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
