@@ -59,6 +59,11 @@ body {
     font-size: 14px;
 }
 
+.top_menu a .fa-flag-o {
+    font-size: 20px;
+    color: #ffffff;
+}
+
 .top_menu a:hover {
     color: #fff;
     background: #4eabda;
@@ -72,17 +77,6 @@ body {
     height: 31px;
     margin-top: 3px;
     border-right: 1px solid #60b5ed;
-}
-
-.gradient_links li:first-child a {
-    position: relative;
-    padding-left: 30%;
-}
-
-.gradient_links li:first-child a img {
-    position: absolute;
-    top: 5px;
-    left: 10px;
 }
 
 .gradient_links a:hover {
@@ -199,7 +193,6 @@ form input:hover[type="password"] {
     color: #fffbfb;
     background: #1b5288;
     border-bottom: 1px solid #689bcc;
-    box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,0.59);
     box-shadow: 0px 0px 16px 2px rgba(47,123,197,0.58);
 }
 
@@ -214,13 +207,12 @@ form input[type="submit"] {
     height: 32px;
     border-radius: 2px;
     color: #ffffff;
-    background: background: rgba(80,174,219,1);
+    background: rgba(80,174,219,1);
     background: linear-gradient(to bottom, rgba(80,174,219,1) 0%, rgba(75,167,216,1) 26%, rgba(67,154,211,1) 48%, rgba(50,129,199,1) 71%, rgba(46,122,196,1) 100%);
 }
 
 form input:hover[type="submit"] {
     color: #fffbfb;
-    box-shadow: inset 0px 0px 16px -1px rgba(0,0,0,0.59);
     box-shadow: 0px 0px 16px 2px rgba(47,123,197,0.58);
     cursor: pointer;
 }
