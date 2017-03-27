@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Arial;
+    src: url(../fonts/Arial/ArialRegular/ArialRegular.ttf);
+    src: url(../fonts/Arial/ArialRegular/ArialRegular.eot);
+    src: url(../fonts/Arial/ArialRegular/ArialRegular.woff);
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(../fonts/Arial/ArialBoldItalic/ArialBoldItalic.ttf);
+    src: url(../fonts/Arial/ArialBoldItalic/ArialBoldItalic.eot);
+    src: url(../fonts/Arial/ArialBoldItalic/ArialBoldItalic.woff);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url(../fonts/Lucida-Sans_Unicode/lucida-sans-unicode_[allfont.ru].ttf);
+    src: url(../fonts/Lucida-Sans_Unicode/lucida-sans-unicode_allfont.ru-webfont.woff);
+    src: url(../fonts/Lucida-Sans_Unicode/lucida-sans-unicode_allfont.ru-webfont.woff2);
+}

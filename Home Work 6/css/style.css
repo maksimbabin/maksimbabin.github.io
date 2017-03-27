@@ -1,26 +1,3 @@
-@font-face {
-    font-family: Arial;
-    src: url(../fonts/Arial/ArialRegular/ArialRegular.ttf);
-    src: url(../fonts/Arial/ArialRegular/ArialRegular.eot);
-    src: url(../fonts/Arial/ArialRegular/ArialRegular.woff);
-}
-
-@font-face {
-    font-family: Arial;
-    src: url(../fonts/Arial/ArialBoldItalic/ArialBoldItalic.ttf);
-    src: url(../fonts/Arial/ArialBoldItalic/ArialBoldItalic.eot);
-    src: url(../fonts/Arial/ArialBoldItalic/ArialBoldItalic.woff);
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Lucida Sans Unicode';
-    src: url(../fonts/Lucida-Sans_Unicode/lucida-sans-unicode_[allfont.ru].ttf);
-    src: url(../fonts/Lucida-Sans_Unicode/lucida-sans-unicode_allfont.ru-webfont.woff);
-    src: url(../fonts/Lucida-Sans_Unicode/lucida-sans-unicode_allfont.ru-webfont.woff2);
-}
-
 .body_container {
     width: 908px;
     margin: 0 auto;
@@ -38,6 +15,10 @@ header {
     align-items: center;
 }
 
+.contacts span {
+    margin: 0 0 0 10px;
+}
+
 .phone_pic {
     display: inherit;
     justify-content: center;
@@ -48,7 +29,7 @@ header {
     background-image: -ms-linear-gradient( 90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
     width: 22px;
     height: 21px;
-    margin: 0 10px;
+    margin: 0 4px 0 6px;
 }
 
 .fa-phone {
@@ -60,7 +41,7 @@ header {
     color: #5e696d;
     font-size: 18px;
     font-family: Arial, Tahoma, sans-serif;
-    line-height: 25px;
+    padding-top: 4px;
 }
 
 .login_registration {
@@ -69,7 +50,7 @@ header {
     background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
     background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
     background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
-    box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, .75);
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, .75);
 }
 
 .login_registration {
@@ -155,20 +136,21 @@ input[type="submit"]:hover {
     align-items: center;
     border: 1px solid rgb(189, 196, 199);
     background-color: rgb(255, 255, 255);
-    width: 70px;
-    height: 20px;
+    width: 75px;
+    height: 19px;
     border-radius: 11px;
-    margin-right: 9px;
+        margin: -2px 6px 0 0;
 }
 
 .site_map .fa {
-    font-size: 12px;
+    font-size: 9px;
     color: rgb(189, 196, 199);
+    padding: 0 2px 10px 0;
 }
 
 .slider {
     height: 238px;
-    margin-top: 10px;
+    margin-top: 11px;
     background: url(../img/background_slider.jpg);
     background-size: cover;
 }
@@ -177,14 +159,12 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: space-between;
     height: 31px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(13, 22, 66);
+    border: 1px solid rgb(13, 22, 66);
     border-radius: 4px;
     background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
     margin-top: 6px;
 }
 
@@ -236,9 +216,9 @@ input[type="submit"]:hover {
 }
 
 .section_menu p .fa-shopping-cart {
-     font-size: 20px;
-     color: #0e4d7b;
-     margin-right: 9px;
+    font-size: 20px;
+    color: #0e4d7b;
+    margin-right: 9px;
  }
 
 .section_menu p span {
@@ -261,12 +241,10 @@ input[type="submit"]:hover {
 }
 
 .search_box {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(156, 156, 157);
+    border: 1px solid rgb(156, 156, 157);
     border-radius: 17px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75);
+    box-shadow: 0 5px 5px 0 rgba(104, 104, 104, 0.75);
     height: 132px;
 }
 
@@ -332,9 +310,7 @@ figure span {
 }
 
 .container_tire {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(164, 174, 177);
+    border: 1px solid rgb(164, 174, 177);
     border-radius: 7px;
     background-color: rgb(255, 255, 255);
     width: 137px;
@@ -356,15 +332,22 @@ figure span {
 .sidebar_header {
     display: flex;
     align-items: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(121, 135, 141);
-    border-radius: 10px;
+    border: 1px solid rgb(121, 135, 141);
+    border-radius: 12px;
     background-color: rgb(255,255,255);
-    box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
     width: 179px;
-    height: 23px;
-    margin: 2px 0 15px 0;
+    height: 25px;
+    margin: 2px 0px 13px -1px;
+}
+
+.sidebar_right .sidebar_header {
+    margin: 0px 0 14px -4px;
+    width: 181px;
+}
+
+.sidebar_right .list_icon {
+    margin: -2px 7px 0 4px;
 }
 
 .list_icon {
@@ -375,9 +358,9 @@ figure span {
     background-image: -webkit-linear-gradient(left, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94), rgb(12,50,86) 100%);
     background-image: -o-linear-gradient(left, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94), rgb(12,50,86) 100%);
     background-image: linear-gradient(to right, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94), rgb(12,50,86) 100%);
-    width: 22px;
+    width: 20px;
     height: 21px;
-    margin: 0 5px 0 3px;
+    margin: 0 5px 0 2px;
 }
 
 .list_icon .fa-file-text-o {
@@ -395,14 +378,11 @@ figure span {
 .sidebar_item {
     display: flex;
     align-items: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(121, 135, 141);
+    border: 1px solid rgb(121, 135, 141);
     border-radius: 16px;
     background-color: rgb(255,255,255);
     width: 148px;
-    height: 29px;
-    margin: 0 0 0 4px;
+    height: 26px;
 }
 
 .catalog_icon {
@@ -414,6 +394,10 @@ figure span {
     width: 23px;
     height: 23px;
     margin: 0 5px 0 3px;
+}
+
+.catalog_list {
+    padding: 0 0 3px 0;
 }
 
 .catalog_icon .fa-circle {
@@ -468,7 +452,7 @@ figure span {
 }
 
 .brand_option {
-    margin: 0 0 0 8px;
+    margin: 0 0 0 11px;
 }
 
 .brand_item1,
@@ -479,7 +463,7 @@ figure span {
 
 .input_wraper {
     display: flex;
-    margin: 9px 0 12px 10px;
+    margin: 9px 0 12px 6px;
 }
 
 input[type="checkbox"] {
@@ -498,11 +482,9 @@ input[type="checkbox"] + label::before {
     display: inline-block;
     width: 8px;
     height: 9px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(17, 65, 101);
+    border: 1px solid rgb(17, 65, 101);
     background-color: rgb(255, 255, 255);
-    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.75);
     margin: 0 14px 0 0;
 }
 
@@ -513,21 +495,19 @@ input[type="checkbox"]:checked + label::before {
 }
 
 input[name="select"] {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(167, 171, 174);
+    border-style: 1px solid rgb(167, 171, 174);
     border-radius: 14px;
     background-image: -moz-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
     background-image: -webkit-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
     background-image: -ms-linear-gradient( -90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
-    box-shadow: 0px 2px 2px 0px rgba(150, 150, 150, 0.75);
-    width: 84px;
-    height: 28px;
+    box-shadow: 0 2px 2px 0 rgba(150, 150, 150, 0.75);
+    width: 80px;
+    height: 25px;
     font-size: 11px;
     font-family: Arial, sans-serif;
     color: #e5e9ea;
     text-transform: uppercase;
-    margin: 20px 0 0 11px;
+    margin: 22px 0 0 11px;
 }
 
 .brand_logos {
@@ -569,7 +549,7 @@ input[name="select"] {
 }
 
 .logo_container2 a {
-        background-image: url(../img/brigestone.png);
+    background-image: url(../img/brigestone.png);
 }
 
 .logo_container3 {
