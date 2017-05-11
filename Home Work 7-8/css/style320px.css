@@ -1,0 +1,105 @@
+@media screen and (max-width: 29.5rem) {
+    .layer4 {
+        /*display: none;*/
+    }
+    .phone {
+        display: none;
+    }
+
+    .opaciti_line {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 30rem) {
+    .layer1 {
+        height: 34.6rem;
+        background: url(../img/background_mountain480-768.jpg) center 0 no-repeat;
+    }
+
+    .slider {
+        padding: 10.3rem 0 0 0;
+    }
+
+    .slider h1 {
+        font-size: 2.25rem;
+    }
+
+    .phone {
+        display: block;
+    }
+
+    .pagination {
+    margin-top: -6.5625rem;
+    }
+}
+
+@media screen and (min-width: 47.5rem) {
+    .layer1 {
+        height: 50.2rem;
+        background: url(../img/background_mountain768-960.jpg) center 0 no-repeat;
+    }
+
+    .layer1__header {
+        text-align: left;
+        padding-left: 1.375rem;
+    }
+
+    .menu ul {
+        visibility: visible;
+        display: flex;
+        justify-content: flex-start;
+        height: auto;
+        border: none;
+        width: auto;
+        margin: 0 auto;
+        padding-left: 1.375rem;
+        padding-right: 1.375rem;
+    }
+
+    .menu li {
+        height: auto;
+        border: none;
+        background: none;
+        margin-right: 3.1875rem;
+    }
+
+    .menu a {
+        width: auto;
+        height: 100%;
+        font-size: 1.5rem;
+    }
+
+    .menu a:hover:after {
+        width: auto;
+    }
+
+    .menu li:active {
+        background: none;
+    }
+
+    .opaciti_line {
+        height: 25rem;
+        margin-top: -15.8rem
+    }
+
+    .slider {
+        padding-top: 13rem;
+        margin-left: -1.125rem;
+    }
+
+    .slider h1 {
+        font-size: 3rem;
+    }
+
+    .slider p {
+        font-size: 1.5rem;
+    }
+
+    .left_arrow,
+    .right_arrow {
+        margin-top: 18.4rem;
+    }
+
+
+}
